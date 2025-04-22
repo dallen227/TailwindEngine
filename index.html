@@ -1,19 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dribbble Clone with Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <nav class="bg-white p-4 shadow-md">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="text-xl font-bold text-blue-600">Dribbble</div>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Popular</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Discover</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Animation</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Illustration</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-blue-600">Mobile</a></li>
       </ul>
-    </nav>
-    <script src="index.js"></script>
-  </body>
+    </div>
+  </nav>
+
+  <div class="max-w-7xl mx-auto py-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New.png" alt="Project 1" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Siege Media</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">193 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">67.4k views</p>
+      </div>
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New 2.png" alt="Project 2" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Orman Clark</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">98 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">24.2k views</p>
+      </div>
+
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New 3.png" alt="Project 3" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Jordon Cheung</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">176 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">57.1k views</p>
+      </div>
+
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New 4.png" alt="Project 4" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Ramy Wafaa</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">513 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">143k views</p>
+      </div>
+
+   
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New 5.png" alt="Project 5" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Aldo Crusher</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">65 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">6.7k views</p>
+      </div>
+
+
+      <div class="bg-white p-4 rounded-lg shadow-md">
+        <img src="New New 6.png" alt="Project 6" class="rounded-lg w-full h-40 object-cover mb-4">
+        <div class="flex justify-between items-center">
+          <span class="font-semibold text-gray-800">Canto</span>
+          <div class="flex items-center">
+            <i class="fas fa-heart text-red-500 mr-2"></i>
+            <span class="text-gray-600">100 likes</span>
+          </div>
+        </div>
+        <p class="text-gray-500 text-sm mt-2">5.2k views</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
 </html>
